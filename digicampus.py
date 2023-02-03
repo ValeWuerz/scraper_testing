@@ -13,6 +13,6 @@ driver.get("https://digicampus.uni-augsburg.de/dispatch.php/start?sso=webauth&ca
 login =driver.find_element("id","username")
 password =driver.find_element("id","password")
 submit =driver.find_element("xpath","/html/body/div/div/div/div/form/div[3]/button")
-login.send_keys("wuerzval")
-password.send_keys("D56jIkAP")
+login.send_keys("")
+password.send_keys("")
 submit.click()
